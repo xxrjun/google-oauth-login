@@ -23,7 +23,7 @@ router.get(
     // scope: 授權項目
     scope: ["profile", "email"],
 
-    // 使用者每次登入都可以選者帳號
+    // 使用者每次登入都可以選擇帳號
     prompt: "select_account",
   })
 );
